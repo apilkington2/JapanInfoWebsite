@@ -1,0 +1,180 @@
+/*
+	Final Project: Japan 
+	Author: Adrian Pilkington
+	Date: May 16, 2017
+*/
+
+/* DEFAULT STYLES */
+
+aside, figure, footer, header, section.regular, section.customs, section.lifestyle, nav {
+	display: block;
+}
+
+/* BODY STYLES */
+
+body * {
+	font-family: 'Times New Roman', sans-serif;
+	font-weight: normal;
+	line-height: 1.3em;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	background: white;
+	background: linear-gradient(#6C93DE, #AEC5F3);
+	border-radius: 6px;
+	height: 100%;
+}
+
+/* HEADER STYLES */
+
+header img {
+	display: block;
+	margin: auto;
+}
+
+body h1 {
+	text-align: center;
+	font-weight: bold;
+	color: rgb(128, 64, 64);
+	text-transform: uppercase;
+	font-size: 20pt;
+}
+
+body h2 {
+	background-color: rgb(190, 126, 126);
+	font-size: 14pt;
+	padding-left: 5px;
+}
+
+body h3 {
+	font-style: italic;
+	padding-left: 25px;
+}
+/* NAVIGATION STYLES */
+
+nav {
+	clear: left;
+	float: left;
+	padding-right: 15px;
+	width: 200px;
+	font-size: 14pt;
+	font-family: 'Felix Titling', Arial, sans-serif;
+}
+
+nav ul {
+	background-color: rgb(128, 64, 64);
+	line-height: 3em;
+	list-style-type: none;
+}
+
+nav ul li {
+	padding-left: 4px;
+	line-height: 2em;
+	padding-right: 4em;
+	padding-bottom: 7%;
+	text-align: center;
+}
+
+nav ul li:hover {
+	background-color: rgb(190, 126, 126);
+}
+
+nav.overall ul li:first-of-type {
+	text-transform: uppercase;
+}
+
+nav ul li a {
+	text-decoration: none;
+	border-bottom: 1px solid rgb(128, 64, 64);
+	color: black;
+}
+
+nav.glossary {
+	width: 625px;
+	font-family: 'Felix Titling', Arial, sans-serif;
+	font-size: 12pt;
+}
+
+nav.glossary li {
+	float:left;
+	padding: 15px 0px;
+	text-align: center;
+	width: 20%;	
+	background-color: rgb(206, 159, 159);
+}
+
+nav.glossary li a {
+	color: black;
+}
+
+nav.glossary li a:hover {
+	color: rgb(128, 64, 64);
+}
+
+/* SECTION STYLES */
+
+section.regular {
+	width: 400px;
+	text-align: justify;	
+	float: left;
+	font-size: 12pt;
+}
+
+section.customs, section.lifestyle {
+	width: 625px;
+	text-align: justify;	
+	float: left;
+	font-size: 12pt;
+
+}
+
+section.customs p {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	Column-count: 2;
+	
+	-moz-column-gap: 20px;
+	-webkit-column-gap: 20px;
+	column-gap: 20px;
+	
+	-moz-column-rule: 1px solid grey;
+	-webkit-column-rule: 1px solid grey;
+	column-rule: 1px solid grey;
+}
+section p {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+/* ASIDE STYLES */
+
+aside {
+	float: right;
+	width: 200px;
+}
+
+aside img {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+aside h1 {
+	text-align: center;
+	color: rgb(128, 64, 64);
+	font-size: 18pt;
+}
+
+/* FOOTER STYLES */
+
+section footer {
+	font-size: 11pt;
+	text-align: center;
+}
+
+

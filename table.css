@@ -1,0 +1,40 @@
+/*
+	Final Project: Japan 
+	Author: Adrian Pilkington
+	Date: May 16, 2017
+	
+	STYLE SHEET FOR TABLE
+*/
+
+table {
+	border: 3px solid rgb(206, 159, 159);
+	width: 625px;
+	font-size: 12pt;
+	border-collapse: collapse;
+}
+
+table th, table td {
+	border: 1px solid rgb(206, 159, 159);
+}
+
+table caption {
+	caption-side: bottom;
+	text-align: right;
+	font-style: italic;
+}
+
+table tbody tr th {
+	font-weight: bold;
+}
+
+col.information {
+	background-color: rgb(190, 129, 129);
+}
+
+table tbody td {
+	padding: 5px;
+}
+
+col.subject {
+	background-color: rgb(128, 64, 64);
+}
